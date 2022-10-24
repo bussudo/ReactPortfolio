@@ -1,21 +1,41 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Alert, Breadcrumb, Card } from "react-bootstrap";
+import { Button, Card, Container, Form, Row } from "react-bootstrap";
 
 const App = () => <PortfolioContainer />;
 
-function contactButton() {
+function contactCard() {
   return (
-    <div className="contactButton">
+    <div className="contactCard">
       <header className="App-header">
-        <Card>
-          <Card.Img />
+        <Container>
+          <Form>
+            <Row>
+              <Form.Group controlId="formName">
+                <Form.Label>Name:</Form.Label>
+              </Form.Group>
+            </Row>
+            <Row>
+              <Form.Group controlId="formEmail">
+                <Form.Label>Email Address:</Form.Label>
+                <Form.Control type="email" placeholder="Example@email.com" />
+              </Form.Group>
+            </Row>
+            <Row>
+              <Form.Group controlId="formMessage">
+                <Form.Label>Message</Form.Label>
+              </Form.Group>
+            </Row>
+            <Button type="submit">Submit</Button>
+          </Form>
+        </Container>
+        <Card className="mb-3" style={{ color: "#000" }}>
+          <Card.Img src="./Assets/parkme.png/200/50" />
           <Card.Body>
             <Card.Title>Message</Card.Title>
           </Card.Body>
         </Card>
-        <Button>Submit</Button>
       </header>
     </div>
   );
