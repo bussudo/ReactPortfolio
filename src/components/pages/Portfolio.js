@@ -3,12 +3,12 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 
 export default function Portfolio() {
   return (
-    <div class="project">
+    <div className="project">
       <h1>My Work</h1>
       <Container>
         <Row>
           <Col md>
-            <Card className="mb-3" style={{ color: "#000" }}>
+            <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body>
                 <a href="https://github.com/calihuddleston/park-me">
                   <Card.Img src="./Assets/img/parkme.png" alt="car" />
@@ -18,7 +18,7 @@ export default function Portfolio() {
             </Card>
           </Col>
           <Col md>
-            <Card className="mb-3" style={{ color: "#000" }}>
+            <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body>
                 <Card.Img src="./Assets/img/search.png" />
                 <a
@@ -39,7 +39,7 @@ export default function Portfolio() {
         </Row>
         <Row>
           <Col md>
-            <Card className="mb-3" style={{ color: "#000" }}>
+            <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body>
                 <a href="https://github.com/bussudo/mvc.techblog">
                   <Card.Img src="./Assets/img/mvctechblog.png" alt="techblog" />
@@ -49,7 +49,7 @@ export default function Portfolio() {
             </Card>
           </Col>
           <Col md>
-            <Card className="mb-3" style={{ color: "#000" }}>
+            <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body>
                 <Card.Img src="./Assets/img/PWATextEditor.png" />
                 <Row>
@@ -65,7 +65,7 @@ export default function Portfolio() {
         </Row>
         <Row>
           <Col md>
-            <Card className="mb-3" style={{ color: "#000" }}>
+            <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body>
                 <a href="https://github.com/bussudo/sqlemployeetracker">
                   <Card.Img src="./Assets/img/SQLEmpTrck.png" alt="database" />
@@ -75,7 +75,7 @@ export default function Portfolio() {
             </Card>
           </Col>
           <Col md>
-            <Card className="mb-3" style={{ color: "#000" }}>
+            <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body>
                 <Card.Img src="./Assets/img/RMwireframe.png" />
                 <a
@@ -83,13 +83,11 @@ export default function Portfolio() {
                   alt="recycling app"
                 ></a>
                 <Card.Title>Recycle Me</Card.Title>
-                {/* {/* </Row> */}
               </Card.Body>
             </Card>
           </Col>
         </Row>
-      </Container>{" "}
-      */
+      </Container>
     </div>
   );
 }

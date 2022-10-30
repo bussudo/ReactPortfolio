@@ -4,24 +4,20 @@ import { Container, Form, Row, Button } from "react-bootstrap";
 export default function Contact() {
   function handleField(event) {
     console.log("away");
-    // const nameInp = event.target.value.Text;
-    console.log(event.target.value);
+    const nameInp = event.target.name;
+    console.log(nameInp);
 
     const length = event.target.value.length;
-    const filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     if (length < 1) {
       alert("Field cannot be blank");
     }
-    // if ((event.target.value.Text = "bussudo@gmail.com")) {
-    //   console.log("yes");
-    // }
-
-    // if ((nameInp = "email" && (!filter.test(nameInp.value))
-    // if ((nameInp = "email")) console.log(nameInp);
-    // console.log(filter.test(nameInp.value));
-    // alert("Please provide a valid email address");
+    if (nameInp === "email") {
+      var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      if (!event.target.value.match(regex)) {
+        alert("Please enter a valid email");
+      }
+    }
   }
-
   return (
     <div>
       <h2>Contact Me!</h2>
