@@ -7,7 +7,7 @@ export default function Resume() {
       <h5>
         <span>
           Download my
-          <a href="https://docdro.id/reuApNg" alt="resume download">
+          <a href="https://docdro.id/wAxp9XY" alt="resume download">
             &nbsp; Resume
           </a>
         </span>

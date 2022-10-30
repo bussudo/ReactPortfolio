@@ -7,7 +7,7 @@ export default function Portfolio() {
       <h1>My Work</h1>
       <h5>
         Click on the images to go to the respective github repository, or on the
-        link, if available, for the live app
+        link, if available, for the live app on Heroku
       </h5>
       <Container>
         <Row>
@@ -59,13 +59,16 @@ export default function Portfolio() {
             <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body className="d-flex align-items-center flex-column justify-content-center">
                 <Card.Img src="./Assets/img/PWATextEditor.png" />
-                <Row>
-                  <a
-                    href="https://github.com/bussudo/PWATextEditor"
-                    alt="text editor"
-                  ></a>
-                  <Card.Title>PWA Text Editor</Card.Title>
-                </Row>
+                <a
+                  href="https://github.com/bussudo/PWATextEditor"
+                  alt="text editor"
+                ></a>
+
+                <a href="https://bussudo-pwatexteditor.herokuapp.com/">
+                  Live App
+                </a>
+
+                <Card.Title>PWA Text Editor</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -84,11 +87,15 @@ export default function Portfolio() {
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body className="d-flex align-items-center flex-column justify-content-center">
-                <Card.Img size="50%" src="./Assets/img/RMwireframe.png" />
+                <Card.Img
+                  style={{ height: "400px", width: "250px" }}
+                  src="./Assets/img/RMwireframe.png"
+                />
                 <a
                   href="https://github.com/Putridjungle602/Recycle-Me/RMwireframe.png"
                   alt="recycling app"
                 ></a>
+                Live App Coming Soon
                 <Card.Title>Recycle Me</Card.Title>
               </Card.Body>
             </Card>
