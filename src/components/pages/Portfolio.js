@@ -5,6 +5,10 @@ export default function Portfolio() {
   return (
     <div className="project">
       <h1>My Work</h1>
+      <h5>
+        Click on the images to go to the respective github repository, or on the
+        link, if available, for the live app
+      </h5>
       <Container>
         <Row>
           <Col md>
@@ -24,12 +28,17 @@ export default function Portfolio() {
                   href="https://github.com/shannie14/We-Boot"
                   alt="search by name or github"
                 ></a>
-                <Card.Img src="./Assets/img/search.png" />
+                <Card.Img
+                  style={{ marginBottom: "20px" }}
+                  src="./Assets/img/search.png"
+                />
                 <Card.Img src="./Assets/img/homepage.png" />
                 <a
                   href="https://github.com/shannie14/We-Boot"
                   alt="a list of github pages"
                 ></a>
+
+                <a href="https://weboot2.herokuapp.com/">Live App</a>
                 <Card.Title>WeBoot</Card.Title>
               </Card.Body>
             </Card>
