@@ -9,7 +9,7 @@ export default function Portfolio() {
         <Row>
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
-              <Card.Body>
+              <Card.Body className="d-flex align-items-center flex-column justify-content-center">
                 <a href="https://github.com/calihuddleston/park-me">
                   <Card.Img src="./Assets/img/parkme.png" alt="car" />
                 </a>
@@ -19,7 +19,7 @@ export default function Portfolio() {
           </Col>
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
-              <Card.Body>
+              <Card.Body className="d-flex align-items-center flex-column justify-content-center">
                 <Card.Img src="./Assets/img/search.png" />
                 <a
                   href="https://github.com/shannie14/We-Boot"
@@ -40,7 +40,7 @@ export default function Portfolio() {
         <Row>
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
-              <Card.Body>
+              <Card.Body className="d-flex align-items-center flex-column justify-content-center">
                 <a href="https://github.com/bussudo/mvc.techblog">
                   <Card.Img src="./Assets/img/mvctechblog.png" alt="techblog" />
                 </a>
@@ -50,7 +50,7 @@ export default function Portfolio() {
           </Col>
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
-              <Card.Body>
+              <Card.Body className="d-flex align-items-center flex-column justify-content-center">
                 <Card.Img src="./Assets/img/PWATextEditor.png" />
                 <Row>
                   <a
@@ -66,7 +66,7 @@ export default function Portfolio() {
         <Row>
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
-              <Card.Body>
+              <Card.Body className="d-flex align-items-center flex-column justify-content-center">
                 <a href="https://github.com/bussudo/sqlemployeetracker">
                   <Card.Img src="./Assets/img/SQLEmpTrck.png" alt="database" />
                 </a>
@@ -76,7 +76,7 @@ export default function Portfolio() {
           </Col>
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
-              <Card.Body>
+              <Card.Body className="d-flex align-items-center flex-column justify-content-center">
                 <Card.Img src="./Assets/img/RMwireframe.png" />
                 <a
                   href="https://github.com/Putridjungle602/Recycle-Me/RMwireframe.png"
