@@ -20,19 +20,17 @@ export default function Portfolio() {
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body className="d-flex align-items-center flex-column justify-content-center">
-                <Card.Img src="./Assets/img/search.png" />
                 <a
                   href="https://github.com/shannie14/We-Boot"
                   alt="search by name or github"
                 ></a>
-                <Row>
-                  <Card.Img src="./Assets/img/homepage.png" />
-                  <a
-                    href="https://github.com/shannie14/We-Boot"
-                    alt="a list of github pages"
-                  ></a>
-                  <Card.Title>WeBoot</Card.Title>
-                </Row>
+                <Card.Img src="./Assets/img/search.png" />
+                <Card.Img src="./Assets/img/homepage.png" />
+                <a
+                  href="https://github.com/shannie14/We-Boot"
+                  alt="a list of github pages"
+                ></a>
+                <Card.Title>WeBoot</Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -77,7 +75,7 @@ export default function Portfolio() {
           <Col md>
             <Card className="crdProject" style={{ color: "#000" }}>
               <Card.Body className="d-flex align-items-center flex-column justify-content-center">
-                <Card.Img src="./Assets/img/RMwireframe.png" />
+                <Card.Img size="50%" src="./Assets/img/RMwireframe.png" />
                 <a
                   href="https://github.com/Putridjungle602/Recycle-Me/RMwireframe.png"
                   alt="recycling app"
