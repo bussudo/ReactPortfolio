@@ -12,6 +12,6 @@ As my first project using React, I have created a portfolio that displays my wor
 
 ### Screenshot
 
-![Alt Text](./Assets/img/screenshot.png)
+![Alt Text](./public/Assets/img/Screenshot.png)
 
 https://github.com/bussudo/ReactPortfolio
