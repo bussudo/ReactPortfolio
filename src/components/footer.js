@@ -44,7 +44,7 @@ export default function footer() {
           <a href="https://github.com/bussudo/">
             <img
               className="imageFooter"
-              src="/Assets/img/github.png"
+              src="./Assets/img/github.png"
               alt="github icon"
             />
           </a>
@@ -53,7 +53,7 @@ export default function footer() {
           <a href="https://www.linkedin.com/in/donnabussure">
             <img
               className="imageFooter"
-              src="/Assets/img/linkedIn.png"
+              src="./Assets/img/linkedIn.png"
               alt="LinkedIn icon"
             />
           </a>
@@ -62,7 +62,7 @@ export default function footer() {
           <a href="https://stackoverflow.com/users/19148306/bussudo">
             <img
               className="imageFooter"
-              src="/Assets/img/stackoverflow.png"
+              src="./Assets/img/stackoverflow.png"
               alt="StackOverflow icon"
             />
           </a>
