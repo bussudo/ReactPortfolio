@@ -1,15 +1,15 @@
 {
-  "main.css": "/mywork/static/css/main.f4ddf9f0.chunk.css",
-  "main.js": "/mywork/static/js/main.834075e1.chunk.js",
-  "main.js.map": "/mywork/static/js/main.834075e1.chunk.js.map",
-  "static/css/1.0807d3f9.chunk.css": "/mywork/static/css/1.0807d3f9.chunk.css",
-  "static/js/1.4d3c64c0.chunk.js": "/mywork/static/js/1.4d3c64c0.chunk.js",
-  "static/js/1.4d3c64c0.chunk.js.map": "/mywork/static/js/1.4d3c64c0.chunk.js.map",
-  "runtime~main.js": "/mywork/static/js/runtime~main.b2e28b5c.js",
-  "runtime~main.js.map": "/mywork/static/js/runtime~main.b2e28b5c.js.map",
-  "static/css/1.0807d3f9.chunk.css.map": "/mywork/static/css/1.0807d3f9.chunk.css.map",
-  "static/css/main.f4ddf9f0.chunk.css.map": "/mywork/static/css/main.f4ddf9f0.chunk.css.map",
-  "index.html": "/mywork/index.html",
-  "precache-manifest.c3c15efccbaf291e0555e06903b811f8.js": "/mywork/precache-manifest.c3c15efccbaf291e0555e06903b811f8.js",
-  "service-worker.js": "/mywork/service-worker.js"
+  "main.css": "/ReactPortfolio/static/css/main.f4ddf9f0.chunk.css",
+  "main.js": "/ReactPortfolio/static/js/main.834075e1.chunk.js",
+  "main.js.map": "/ReactPortfolio/static/js/main.834075e1.chunk.js.map",
+  "static/css/1.0807d3f9.chunk.css": "/ReactPortfolio/static/css/1.0807d3f9.chunk.css",
+  "static/js/1.4d3c64c0.chunk.js": "/ReactPortfolio/static/js/1.4d3c64c0.chunk.js",
+  "static/js/1.4d3c64c0.chunk.js.map": "/ReactPortfolio/static/js/1.4d3c64c0.chunk.js.map",
+  "runtime~main.js": "/ReactPortfolio/static/js/runtime~main.aa22ff2d.js",
+  "runtime~main.js.map": "/ReactPortfolio/static/js/runtime~main.aa22ff2d.js.map",
+  "static/css/main.f4ddf9f0.chunk.css.map": "/ReactPortfolio/static/css/main.f4ddf9f0.chunk.css.map",
+  "static/css/1.0807d3f9.chunk.css.map": "/ReactPortfolio/static/css/1.0807d3f9.chunk.css.map",
+  "index.html": "/ReactPortfolio/index.html",
+  "precache-manifest.c564963d9221b030828dc708750db501.js": "/ReactPortfolio/precache-manifest.c564963d9221b030828dc708750db501.js",
+  "service-worker.js": "/ReactPortfolio/service-worker.js"
 }
